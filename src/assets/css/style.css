@@ -282,6 +282,7 @@
   background-color: #fff;
   height: 100vh;
   display: grid;
+  align-items: center;
 }
 .layout-menu-teams {
   margin-top: 100px;
@@ -348,6 +349,11 @@
   font-size: 14px;
   line-height: 17px;
   color: #CCCCCC;
+}
+.block-teams {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
 }
 .team-img {
   margin-bottom: 22px;
